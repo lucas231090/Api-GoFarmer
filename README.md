@@ -31,20 +31,22 @@ Rotas disponiveis:
 http://localhost:3000/
 
 Get: 
-
+Listar todas as fazendas
 http://localhost:3000/farms
-... /farms/:id
+
+Listar uma fazenda específica
+http://localhost:3000/farms/:id
 
 Post:
-
+Gravar dados da fazenda
 http://localhost:3000/farms
 
 Put:
-
+Atualizar dados de uma fazenda específica
 http://localhost:3000/farms/:id
 
 Delete:
-
+Deletar uma fazenda específica
 http://localhost:3000/farms/:id
 
 ## 🛠️ Construído com
