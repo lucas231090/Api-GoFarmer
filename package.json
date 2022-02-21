@@ -1,0 +1,23 @@
+{
+  "name": "goFarmer",
+  "version": "1.0.0",
+  "description": "API for list farms and IoT products",
+  "main": "src/index.js",
+  "author": "Lucas Jose de Souza",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.7.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
+  }
+}
